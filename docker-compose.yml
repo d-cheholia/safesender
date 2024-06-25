@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   mongo-data:
-    container_name: mongo-data
+    container_name: mongo-data1
     image: mongo:latest
     ports:
       - "27017:27017"
